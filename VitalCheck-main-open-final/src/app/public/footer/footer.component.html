@@ -1,0 +1,49 @@
+<footer class="footer">
+  <div class="container">
+    <div class="column">
+      <h2>Recursos</h2>
+      <ul>
+        <li><a href="#">Nuestros Agentes</a></li>
+        <li><a href="#">Historias de Miembros</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Compañia</h2>
+      <ul>
+        <li><a href="#">Terminos de Uso</a></li>
+        <li><a href="#">Privacidad</a></li>
+        <li><a href="#">Ayuda</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Mantener contacto</h2>
+      <div class="email-input">
+        <input type="email" id="email" placeholder="Ingresa tu email" oninput="borrarMarcador()">
+        <button>Enviar</button>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2023-VITAL-CHECK Todos los derechos reservados</p>
+  </div>
+</footer>
+
+<script>
+  function borrarMarcador() {
+    document.getElementById("email").placeholder = "";
+  }
+</script>
+
+<style>
+  .email-input button {
+    background-color: #f56a6a;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .email-input button:hover {
+    background-color: #ff7070;
+  }
+</style>

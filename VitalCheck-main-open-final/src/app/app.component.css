@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 70px; /* El mismo valor que el margen superior del otro componente */
+  position: relative;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.bg-color {
+  background-color: #E76B6B;
+  padding-bottom: 0px;
+
+}
+
+@media (max-width: 767px) {
+  .toolbar-logo {
+    display: none;
+  }
+
+  .mat-toolbar-row {
+    justify-content: space-between;
+  }
+
+}
+.router {
+  padding-top: 0px;
+}
